@@ -4,7 +4,7 @@ I. Jenis : Watermark Echart
 
 II. Option : 
 
-### **TITLE**
+### **TITLE** ###
 1.	Title : Text (string) -> untuk membuat judul.
 2.	Title : backgroundColor (color) -> Warna latar belakang judul.
 3.	Title : Subtext (string) -> untuk membuat subtext di garis baru (dibawah judul).
@@ -13,7 +13,7 @@ II. Option :
             -Target (string) self -> untuk membuka halamanlain pada tab yang sama.
 6.	Title : textAlign (string) -> menentukan letak teks (center,right,left).
 
-### **GRID**
+### **GRID** ###
 1.	Grid : left (string, nuber) -> jarak antara komponen grid dan sisi kiri.
 2.	Grid : bottom (string, number) -> jarak antara komponen grid dan sisi bawah.
 3.	Grid : top (string, number) ->jarak antara komponen grid dan sis atas.
@@ -24,7 +24,7 @@ II. Option :
 8.	Grid : show (string) true -> untuk menunjukan grid dalam koordinat.
 9.	Grid : containLabel (Boolean) -> daerah grid yang mengandung label sumbu.
 
-### **xAXIS**
+### **xAXIS** ###
 1.	xAxis : max (number, string) -> maksimum value sumbu.
 2.	xAxis : type (string) -> type dari sumbu (value, category, time, log).
 3.	xAxis : splitLine (Object) show (Boolean) -> nilai sumbu ditampilkan secara default, sedangkan sumbu kategori tidak.
@@ -45,7 +45,7 @@ II. Option :
 18.	xAxis : scale (boolean) -> ini hanya tersedia dalam axis numerik, yaitu, type: 'value.
             -konfigurasi ini tidak tersedia saat min dan max ditetapkan.
             
-### **yAXIS**
+### **yAXIS** ###
 1.	yAxis : position (string) -> posisi sumbu yAxis.
 2.	yAxis : offset (number) -> sumbu y relatif terhadap posisi default. Bisa berguna juga bila multiple yAxis memiliki nilai posisi yang sama.
 3.	yAxis : name (string) -> membuat text pada sumbu xAxis.
@@ -73,7 +73,7 @@ II. Option :
 25.	yAxis :  axisLabel (object) interval (number) -> interval harus digunakan bersamaan dengan min dan max untuk mengatur tickings secara komparatif.
 26.	yAxis : axisLabel (object) rotate (number) -> Tingkat rotasi sumbu label, yang sangat berguna bila tidak ada cukup ruang untuk sumbu kategori. Tingkat rotasi adalah dari -90 sampai 90.
 
-### **SERIES**
+### **SERIES** ###
 1.	Series : type (string)  bar -> Bagan batang menunjukkan data yang berbeda melalui ketinggian sebuah bar, yang digunakan dalam koordinat empat persegi panjang dengan setidaknya 1 sumbu kategori.
 2.	Series : silent (Boolean) -> Whether to ignore mouse events. Default value is false, for triggering and responding to mouse events.
 3.	Series : stack (string) -> Nama tumpukan Pada sumbu kategori yang sama, seri dengan nama tumpukan yang sama akan diletakkan di atas satu sama lain.
@@ -90,7 +90,7 @@ II. Option :
 14.	Series : roseType (string, Boolean) radius  -> Gunakan sudut pusat untuk menunjukkan persentase data, jari-jari untuk menunjukkan ukuran data.
 15. Series : roseType (string, Boolean) area -> Semua sektor akan berbagi sudut pusat yang sama, ukuran data yang ditampilkan hanya melalui radiuses. 
 
-###**TEXTSTYLE**
+### **TEXTSTYLE** ###
 1.	textStyle : color(string) : untuk mengubah warna pada text.
 2.	textStyle : fontSize(number) : untuk mengubah ukuran text (default=18).
 3.	textStyle : fontStyle(string) : italic : mengubah huruf menjadi miring.
